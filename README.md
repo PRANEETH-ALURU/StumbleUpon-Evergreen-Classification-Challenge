@@ -27,7 +27,7 @@ as class label to move forward with the steps of modelling predict.
 I've cleaned the 'body' feature data by removing special symbols, numbers, stopwords etc., Though there
 are several stemmers and lemmatizers available, I've manually removed them. 
 
-<h3>3)Featurization (Vectorization) and Modelling:<h3>
+<h3>3)Featurization (Vectorization) and Modelling:</h3>
 
 In the machine learning model, I've used TfIdf vectorization on preprocessed body features, 
 Count Vectorization on title and url features and Label Encoder on alchemy_category. After this step,
